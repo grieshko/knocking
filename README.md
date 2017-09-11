@@ -5,6 +5,6 @@
 Project is currently under development
 
 # Dependencies
-Dependencies are: 
-\n-python-msfrpc
-\n-python-nmap (https://bitbucket.org/xael/python-nmap)
+Dependencies are:
+-python-msfrpc
+-python-nmap (https://bitbucket.org/xael/python-nmap)
