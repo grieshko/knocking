@@ -1,0 +1,39 @@
+  <br>
+  <div class="container" align='right'>
+  <p>&copy; Grieshko - Aka BlackSheep 2017</p>
+  <hr>
+  </div> <!-- /container -->
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/modal.js"></script>
+<script type="text/javascript" src="/js/dropdown.js"></script>
+<script type="text/javascript" src="/js/bootstrap-hover-dropdown.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/jquery.tocify.js"></script>
+<script type="text/javascript" src="/js/prettify.js"></script>
+<script type="text/javascript" src="/js/moment.js"></script>
+<script type="text/javascript" src="/js/bootstrap-modal.js"></script>
+<script type="text/javascript" src="/js/docs.min.js"></script>
+<script>
+ $(document).ready(function() {
+  $('.js-activated').dropdownHover().dropdown();
+ });
+</script>
+<script>
+  $(function() {
+	$( "#datepicker1" ).datepicker({ firstDay: 1, dateFormat: "yy-mm-dd" });
+	$( "#datepicker2" ).datepicker({ firstDay: 1, dateFormat: "yy-mm-dd" });
+  });
+  </script>
+<script>
+	$(function() {
+		var toc = $("#toc").tocify({ selectors: "h2, panel-title" }).data("toc-tocify");
+		toc.setOptions({ scrollTo: 80 });
+		prettyPrint();
+		$(".optionName").popover({ trigger: "hover" });
+		});
+</script>
+</body>
+</html>
