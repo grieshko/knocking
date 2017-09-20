@@ -48,6 +48,7 @@ class NMapProcess():
                     other = str(nm[host][proto][port]['product']) + " " + str(nm[host][proto][port]['extrainfo'])
                     request = "INSERT into nmap (zone, ip, dns, os, protocol, port, service, status, other) values ('"+str(zone)+"','"+str(host)+"','"+str(hostname)+"','"+str(os)+"','"+str(proto)+"','"+str(port)+"','"+str(service)+"','"+str(status)+"','"+str(other)+"')"
                     cur.execute(request)
+                    myDatabase.sqlLiteCommit(conn)
 
         #Save NMAP OUTPUT
         nmap_output_file_thread = nmap_file + "_" + str(numThread)+".xml"

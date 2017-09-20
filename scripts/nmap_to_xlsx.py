@@ -1,7 +1,6 @@
 #!/usr/bin/env python2.7
 from __future__ import division
 import sys, os, re, time, sqlite3
-from xml.dom.minidom import *
 from time import gmtime, strftime
 from netaddr import *
 from xlsxwriter import *

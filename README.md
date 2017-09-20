@@ -10,3 +10,4 @@ Dependencies are:
 -python-nmap (https://bitbucket.org/xael/python-nmap)
 -php7.1
 -php7.1-sqlite3
+-sqlite3
